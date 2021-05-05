@@ -21,9 +21,6 @@ if (process.env.MAINTENACE_MODE === 'true') {
   });
 }
 
-// MpHIB2rCQCFLiDy8;
-// mongodb+srv://olaoluwa:<password>@cluster0.agjc2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
 app.use(userRoutes);
 app.use(taskRoutes);
 
